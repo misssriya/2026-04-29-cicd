@@ -1,3 +1,4 @@
+name: My-CLI
 on:
   push:
 
@@ -8,4 +9,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
+      - name: print
       - run: echo "Hello World"
