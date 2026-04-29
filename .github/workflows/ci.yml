@@ -11,3 +11,11 @@ jobs:
     steps:
       - name: print
       - run: echo "Hello World"
+
+  test:
+    name: Test Python package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install package
+        run: Run Pytest
+        run: pytest -vv
