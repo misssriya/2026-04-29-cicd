@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-      - run: echo "Hello World"
+        run: echo "Hello World"
 
   test:
     name: Test Python package
